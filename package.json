@@ -1,0 +1,27 @@
+{
+  "name": "voting-encrypt",
+  "version": "0.12.0",
+  "description": "",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "webpack --config webpack/webpack.config.js --mode=production --progress --display-error-details"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/elliptic": "^6.4.12",
+    "@types/crypto-js": "^3.1.47",
+    "html-webpack-plugin": "^4.0.4",
+    "ts-loader": "^6.2.2",
+    "typescript": "^3.8.3",
+    "webpack": "^4.42.1",
+    "webpack-cli": "^3.3.11"
+  },
+  "dependencies": {
+    "bn.js": "^5.1.1",
+    "crypto-js": "^4.0.0",
+    "elliptic": "^6.5.2"
+  }
+}
